@@ -2,7 +2,7 @@ Code used for Sensing Spaces Project.
 
 Steps to pre-process Airspeck Data:
 
-1. Download PEEPs, Leon and Guadalajara Data. (https://drive.google.com/drive/folders/1CjZxHvWGVrYkjk0T7U5f7EYmT63o-T-4?usp=sharing)
+1. Download PEEPs, Leon and Guadalajara Data. (datasync)
 2. Download Delhi.geojson and place in preprocessing folder.
 3. Change paths to raw airspeck files in constants.py.
 4. Execute cells in preprocessing_x_notebook.ipynb to preprocess and save raw files.
