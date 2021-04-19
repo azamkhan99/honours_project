@@ -5,7 +5,7 @@ Steps to pre-process Airspeck Data:
 1. Download PEEPs, Leon and Guadalajara Data. (datasync)
 2. Download Delhi.geojson and place in preprocessing folder.
 3. Change paths to raw airspeck files in constants.py.
-4. Execute cells in preprocessing_x_notebook.ipynb to preprocess and save raw files.
+4. Execute cells in preprocessing_x_notebook.ipynb to preprocess and save raw files. This can take upto 40 minutes to run for PEEPs using pandarallel.
 5. Execute cells in mexico-cleaning.ipynb to remove outliers from Leon and Guadalajara datasets.
 6. Run cells in osm-data.ipynb to add road type data (Delhi.geojson should be downloaded separately).
 
